@@ -123,7 +123,7 @@ Widget build(BuildContext context) {
 
 ### Web integration
 
-We have used [PdfJs](https://cdnjs.cloudflare.com/ajax/libs/pdf.js/2.4.456/pdf.min.js) for rendering the PDF page as an image on the web platform, so the script file must be referred to in your `web/index.html` file.
+We have used [PdfJs](https://mozilla.github.io/pdf.js/) for rendering the PDF page as an image on the web platform, so the script file must be referred to in your `web/index.html` file.
 
 On your `web/index.html` file, add the following `script` tags, somewhere in the `body` of the document:
 
